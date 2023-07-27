@@ -14,6 +14,10 @@
 		2D981CF32A701DDC008EC6D1 /* helloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D981CF22A701DDC008EC6D1 /* helloWorldTests.swift */; };
 		2D981CFD2A701DDC008EC6D1 /* helloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D981CFC2A701DDC008EC6D1 /* helloWorldUITests.swift */; };
 		2D981CFF2A701DDC008EC6D1 /* helloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D981CFE2A701DDC008EC6D1 /* helloWorldUITestsLaunchTests.swift */; };
+		2D981D0D2A72BE93008EC6D1 /* mariposa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D981D0C2A72BE93008EC6D1 /* mariposa.png */; };
+		2D981D102A72BEE0008EC6D1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D981D0F2A72BEE0008EC6D1 /* CircleImage.swift */; };
+		2D981D152A72C093008EC6D1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D981D142A72C093008EC6D1 /* Media.xcassets */; };
+		2D981D172A72C28C008EC6D1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D981D162A72C28C008EC6D1 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		2D981CF82A701DDC008EC6D1 /* helloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D981CFC2A701DDC008EC6D1 /* helloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorldUITests.swift; sourceTree = "<group>"; };
 		2D981CFE2A701DDC008EC6D1 /* helloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D981D0C2A72BE93008EC6D1 /* mariposa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mariposa.png; path = ../../../../Downloads/PracticaTra/mariposa.png; sourceTree = "<group>"; };
+		2D981D0F2A72BEE0008EC6D1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2D981D142A72C093008EC6D1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2D981D162A72C28C008EC6D1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		2D981CD52A701DDB008EC6D1 = {
 			isa = PBXGroup;
 			children = (
+				2D981D0B2A72BE46008EC6D1 /* assets */,
 				2D981CE02A701DDB008EC6D1 /* helloWorld */,
 				2D981CF12A701DDC008EC6D1 /* helloWorldTests */,
 				2D981CFB2A701DDC008EC6D1 /* helloWorldUITests */,
@@ -96,8 +105,11 @@
 			children = (
 				2D981CE12A701DDB008EC6D1 /* helloWorldApp.swift */,
 				2D981CE32A701DDB008EC6D1 /* ContentView.swift */,
+				2D981D0F2A72BEE0008EC6D1 /* CircleImage.swift */,
+				2D981D162A72C28C008EC6D1 /* MapView.swift */,
 				2D981CE52A701DDC008EC6D1 /* Assets.xcassets */,
 				2D981CE72A701DDC008EC6D1 /* Preview Content */,
+				2D981D142A72C093008EC6D1 /* Media.xcassets */,
 			);
 			path = helloWorld;
 			sourceTree = "<group>";
@@ -125,6 +137,14 @@
 				2D981CFE2A701DDC008EC6D1 /* helloWorldUITestsLaunchTests.swift */,
 			);
 			path = helloWorldUITests;
+			sourceTree = "<group>";
+		};
+		2D981D0B2A72BE46008EC6D1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				2D981D0C2A72BE93008EC6D1 /* mariposa.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D981D0D2A72BE93008EC6D1 /* mariposa.png in Resources */,
 				2D981CE92A701DDC008EC6D1 /* Preview Assets.xcassets in Resources */,
+				2D981D152A72C093008EC6D1 /* Media.xcassets in Resources */,
 				2D981CE62A701DDC008EC6D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D981CE42A701DDB008EC6D1 /* ContentView.swift in Sources */,
+				2D981D172A72C28C008EC6D1 /* MapView.swift in Sources */,
 				2D981CE22A701DDB008EC6D1 /* helloWorldApp.swift in Sources */,
+				2D981D102A72BEE0008EC6D1 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
